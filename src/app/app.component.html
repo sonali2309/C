@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<pre> <table border= 3px align="center"bgcolor="black"height="200" width="200" >
+ <tr><td><input type ="text"[(ngModel)]='val'/></td></tr>
+ <tr><td><input type="button" value="1"(click)="function('1')"/>&nbsp;<input type="button" value="2"(click)="function('2')"/>&nbsp;<input type="button" value="3"(click)="function('3')"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="+"(click)="function('+');calc('+');"/></td></tr>
+ <tr><td><input type="button" value="4"(click)="function('4')"/>&nbsp;<input type="button" value="5"(click)="function('5')"/>&nbsp;<input type="button" value="6"(click)="function('6')"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="-"(click)="function('-');calc('-');"/></td></tr>
+ <tr><td><input type="button" value="7"(click)="function('7')"/>&nbsp;<input type="button" value="8"(click)="function('8')"/>&nbsp;<input type="button" value="9"(click)="function('9')"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="x"(click)="function('x');calc('x');"/></td></tr>
+ <tr><td><input type="button" value="="(click)="equals()"/>&nbsp;<input type="button" value="0"(click)="function('0')"/>&nbsp;<input type="button" value="Del"(click)="calc('del')"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="/"(click)="function('/');calc('/');"/></td></tr>
+ <tr><td><input type="button" value="C" (click)="calc()"/>&nbsp;<input type="button" value="." (click)="function('.')"/></td></tr>
+
+</table>
+</pre>
